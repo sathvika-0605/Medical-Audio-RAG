@@ -1,0 +1,46 @@
+
+# API keys and database credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large medicine datasets
+*.zip
+*.csv
+*.jsonl
+
+# Medical audio recordings
+audio_files/
+uploaded_audio/
+*.wav
+*.mp3
+*.m4a
+
+# Generated medical results
+*.json
+
+# Model files and cache
+.cache/
+models/
+*.safetensors
+*.bin
+
+# Logs
+*.log
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
